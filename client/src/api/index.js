@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'https://storyMe.zeet.ap' });
+const API = axios.create({ baseURL: 'https://storyMe.zeet.app' });
 
 API.interceptors.request.use((req) => {
   if (localStorage.getItem('profile')) {
